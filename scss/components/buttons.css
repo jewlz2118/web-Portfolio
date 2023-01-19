@@ -1,0 +1,21 @@
+.btn__container {
+  width: 100%;
+  text-align: center;
+}
+
+.button__big {
+  background-color: white;
+  width: 200px;
+  height: 60px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 80px;
+  color: white;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+/*# sourceMappingURL=buttons.css.map */

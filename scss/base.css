@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: montserrat;
+}
+
+body {
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+#wrapper {
+  margin-left: 50px;
+  margin-right: 150px;
+}
+
+hr {
+  background-color: blue;
+  border: none;
+  height: 1px;
+}
+/*# sourceMappingURL=base.css.map */

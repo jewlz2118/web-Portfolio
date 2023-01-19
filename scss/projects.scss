@@ -1,0 +1,125 @@
+.titles {
+  margin-top: 3vw;
+  margin-bottom: 1vw;
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 3vw;
+  }
+
+  @media screen and (max-width: 425px) {
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+  }
+}
+
+.tech__work {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  //   grid-gap: 3rem;
+  margin-bottom: 200px;
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 100px;
+  }
+
+  @media screen and (min-width: 280px) and (max-width: 630px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 3rem;
+  }
+}
+
+article a.image {
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 400px;
+    height: 200px;
+
+    // @media screen and (max-width: 1023px) {
+    //   width: 100%;
+    //   height: 100%;
+    // }
+
+    @media screen and (min-width: 630px) and (max-width: 1024px) {
+      height: 19vh;
+      width: 100%;
+    }
+
+    @media screen and (max-width: 425px) {
+      width: 250px;
+      height: 150px;
+    }
+  }
+}
+
+article p {
+  font-size: 1.2rem;
+  height: 100px;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 1.1rem;
+    height: 150px;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+  }
+
+  @media screen and (max-width: 425px) {
+    height: 100px;
+  }
+}
+
+.box1 {
+  border: 1px solid $color-grid;
+  border-style: none solid solid none;
+  padding-right: 2vw;
+}
+
+.box2 {
+  border: 1px solid $color-grid;
+  border-style: none none solid none;
+  padding-left: 2vw;
+}
+
+.box3 {
+  border: 1px solid $color-grid;
+  border-style: none solid none none;
+  padding-top: 2vw;
+  padding-right: 2vw;
+}
+
+.box4 {
+  padding-left: 2vw;
+  padding-top: 2vw;
+}
+
+@media screen and (max-width: 768px) {
+  h3 {
+    font-weight: 400;
+  }
+
+  // article p {
+  //   font-size: 1rem;
+  //   height: 100px;
+  // }
+
+  .box3,
+  .box4 {
+    padding-top: 4vw;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 630px) {
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    border-style: none;
+    border: none;
+  }
+}

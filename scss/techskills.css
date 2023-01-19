@@ -1,0 +1,39 @@
+.major {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 60px;
+}
+
+.tech {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.features {
+  display: contents;
+}
+
+.content__item1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-row: 2;
+  grid-row: 2/ 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+}
+
+.icons {
+  font-size: 6rem;
+}
+/*# sourceMappingURL=techskills.css.map */

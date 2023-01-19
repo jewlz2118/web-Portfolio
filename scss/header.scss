@@ -1,0 +1,52 @@
+header {
+  top: 0;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+}
+
+.header__box {
+  //   background-color: cadetblue;
+  height: 5vw;
+  width: 100%;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 2vw;
+  }
+}
+
+.header__logo {
+  position: relative;
+  top: 20px;
+  height: 4vw;
+  width: 4vw;
+
+  @media only screen and (max-width: 425px) {
+    height: 10vw;
+    width: 10vw;
+  }
+}
+
+.logo__text {
+  position: relative;
+  left: 10px;
+
+  @media screen and (max-width: 1024px) {
+    top: 1vw;
+  }
+
+  @media screen and (max-width: 768px) {
+    top: 1.5vw;
+  }
+
+  @media screen and (max-width: 425px) {
+    font-size: 0.6rem;
+    left: 5px;
+    top: 2vw;
+  }
+}
+
+header a {
+  text-decoration: none;
+  color: $color-text;
+}

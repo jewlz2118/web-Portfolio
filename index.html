@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="scss/main.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;900&display=swap"
+      rel="stylesheet"/>
+    <title>Julian Hodge Frontend Developer</title>
+  </head>
+  <body>
+
+    <!-- navigation -->
+    <!-- <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi__toggle" />
+      <label for="navi_togggle" class="navigation__button">Menu burger</label>
+      <div class="navigation__background">&nbsp;</div>
+      <div class="navigation__nav"></div>
+    </div> -->
+
+    <div id="wrapper">
+      
+      <!-- Header -->
+      <header id="header">
+            <div id="burger" onclick="enable()">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <nav class="nav" id="nav">
+              <ul>
+                <li><a href="#">who am 1</a></li> 
+                <li><a href="#section1">tech skills</a></li> 
+                <li><a href="#section2">projects</a></li> 
+                <li>contact me:</li>
+              </ul>
+              
+
+              <div class="connect__menu">
+                <a href="https://www.linkedin.com/in/julian-hodge2118" target="_blank"><ion-icon class="socials" name="logo-linkedin"></ion-icon></a>
+                <a href="http://www.github.com/jewlz2118" target="_blank" rel="noopener noreferrer"><ion-icon class="socials" name="logo-github"></ion-icon></a>
+                <a href="mailto:jay_hodge@hotmail.co.uk"><ion-icon class="socials" name="mail-outline"></ion-icon></a>
+              </div>
+            </nav>
+
+            <div class="header__box">
+              <img src="img/jhlogo-grey.png" class="header__logo" alt="JH Logo">
+              <a href="/index.html" class="logo__text">Julian Hodge Frontend Developer</a>
+            </div>
+          </header>
+
+          <!-- Banner -->
+          <section id="banner">
+            <div class="content">
+              <h1>Hi, I’m Julian Hodge<br/></h1>
+              <h2>A self-taught Frontend Delveloper</h2>
+              
+
+              <p class="intro">
+                I love to build and create websites this is a motivation for me to create something out of nothing to own the frontEnd and develop a story that the user can enjoy.
+              </p>
+              <div class="btn__container">
+                <button class="button__big button__scroll">check my work</button>
+              </div>
+            </div>
+            <span class="image object">
+              <!-- <img src="/images/me.jpg" alt="" /> -->
+            </span>
+          </section>
+
+          <hr>
+
+          <!-- Section -->
+          <header class="major" id="section1">
+            <h2>Tech & Skills</h2>
+          </header>
+          
+          <section class="tech">
+            <div class="features">
+              
+              <div class="content">
+              <article>
+                  <ion-icon name="logo-html5" class="icons"></ion-icon>
+                  <h3>HTML 5</h3>
+                  <p>
+                    To create a basic structure of a website or application.
+                  </p>
+                </article>
+              </div>
+              <article>
+                <span class="icon solid fa-paper-plane"></span>
+                <div class="content">
+                  <ion-icon name="logo-sass" class="icons"></ion-icon>
+                  <h3>CSS 3 / Sass</h3>
+                  <p>
+                    CSS animations and creating clean CSS with BEM.
+                  </p>
+                </div>
+              </article>
+              <article>
+                <span class="icon solid fa-rocket"></span>
+                <div class="content">
+                  <ion-icon name="logo-javascript" class="icons"></ion-icon>
+                  <h3>Javascript</h3>
+                  <p>
+                    Vanilla Javascript and ES6. 
+                  </p>
+                </div>
+              </article>
+              <article>
+                <span class="icon solid fa-signal"></span>
+                <div class="content">
+                  <ion-icon name="logo-react" class="icons"></ion-icon>
+                  <h3>React</h3>
+                 <p>
+                    React native and Typescript. 
+                  </p>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <hr>
+
+          <!-- Section -->
+          <header class="major" id="section2">
+            <h2>Projects</h2>
+          </header>
+          <div class="posts">
+            <section class="tech__work">
+              <article class="box1">
+                <a href="https://jewlz2118.github.io/BurgersNbbq/" class="image"><img src="img/burgersnbbq.jpg" alt="BurgersNbbq"/></a>
+                <h3 class="titles">Burgers N BBQ</h3>
+                <p>
+                  Fictional Smokehouse restaurant to entice the customer in to
+                  see what authentic smokehouse meat and dishes they are cooking
+                  up.
+                </p>
+                <ul class="actions">
+                  <li><button class="button__view"><a href="https://jewlz2118.github.io/BurgersNbbq/">view</a></button></li>
+                  <li><button class="button__hub"><a href="https://github.com/jewlz2118/BurgersNbbq" target="_blank">view code</a></button></li>
+                </ul>
+                  
+              </article>
+              <article class="box2">
+                <a href="https://jewlz2118.github.io/correct-conversation/" class="image"><img src="img/correctconversation.jpg" alt="" /></a>
+                <h3 class="titles">Correct Conversations</h3>
+                <p>
+                  landing page for a private tutor to teach English to
+                  foreign or oversea students to help speak fluent English in a
+                  manner of having natural conversations in day-to-day life.
+                </p>
+                <ul class="actions">
+                  <li><button class="button__view"><a href="https://jewlz2118.github.io/correct-conversation/">view</a></button></li>
+                  <li><button class="button__hub"><a href="https://github.com/jewlz2118/correct-conversation" target="_blank">view code</a></button></li>
+                </ul>
+              </article>
+              <article class="box3">
+                <a href="https://jewlz2118.github.io/guess-my-number/" class="image"><img src="img/guessmynumber.jpg" alt="guess my number"/></a>
+                <h3 class="titles">Guess My Number</h3>
+                <p>
+                  Quick and fun guess the number game, choose a number between
+                  the value of 1 and 20 and see if you can retain a high score.
+                </p>
+                <ul class="actions">
+                  <li><button class="button__view"><a href="https://jewlz2118.github.io/guess-my-number/">view</a></button></li>
+                  <li><button class="button__hub"><a href="https://github.com/jewlz2118/guess-my-number" target="_blank">view code</a></button></li>
+                </ul>
+              </article>
+              <article class="box4">
+                <a href="https://jewlz2118.github.io/Get_Photo/" target="_blank" class="image"><img src="img/getphotos.jpg" alt="" /></a>
+                <h3 class="titles">Get Photo</h3>
+                <p>
+                  Random generated photos of fox species within there nartural habitats.
+                </p>
+                <ul class="actions">
+                  <li><button class="button__view"><a href="https://jewlz2118.github.io/Get_Photo/">view</a></button></li>
+                  <li><button class="button__hub"><a href="https://github.com/jewlz2118/Get_Photo" target="_blank">view code</a></button></li>
+                </ul>
+              </article>
+              </div>
+            </section>
+
+            <!-- <button class="button__hub" onclick="window.location.href='https://github.com/jewlz2118/Get_Photo' ">click me</button> -->
+          
+        
+      
+
+          <!-- Footer -->
+        
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="connect">
+        <a href="https://www.linkedin.com/in/julian-hodge2118" target="_blank"><ion-icon class="socials" name="logo-linkedin"></ion-icon></a>
+        <a href="http://www.github.com/jewlz2118" target="_blank" rel="noopener noreferrer"><ion-icon class="socials" name="logo-github"></ion-icon></a>
+        <a href="mailto:jay_hodge@hotmail.co.uk"><ion-icon class="socials" name="mail-outline"></ion-icon></a>
+      </div>
+        
+
+    <p class="copyright">&copy; Julian Hodge. All rights reserved.</p>
+    </footer>
+    <script type="text/javascript" src="javascript/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
