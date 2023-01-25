@@ -32,7 +32,8 @@
 .content h2 {
   background-color: $color-primary;
   height: 60px;
-  width: 520px;
+  width: 100%;
+  max-width: 520px;
   padding: 10px;
   color: white;
   border-radius: 2px;
@@ -50,15 +51,16 @@
   }
 
   @media screen and (min-device-width: 426px) and (max-device-width: 767px) {
-    width: 80%;
+    width: 85%;
     font-size: 85%;
   }
 
   @media screen and (max-width: 425px) {
-    padding-top: 1.5vw;
+    padding-top: 2vw;
     height: 8vw;
     font-size: 0.8rem;
-    width: 240px;
+    width: 100%;
+    max-width: 245px;
   }
 }
 
